@@ -1,0 +1,1 @@
+const solution = (s,l) => [...s].filter( v => v !== l).join('')
