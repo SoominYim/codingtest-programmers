@@ -1,7 +1,1 @@
-function solution(num1, num2) {
-    if(num1 == num2){
-        return 1
-    }else {
-        return -1
-    }
-}
+const solution = (n1,n2) => n1===n2 ? 1:-1 
