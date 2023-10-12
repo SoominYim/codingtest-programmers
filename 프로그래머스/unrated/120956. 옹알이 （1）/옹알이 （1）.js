@@ -1,0 +1,1 @@
+const solution = b => b.map(v => !v.replaceAll(/aya|ye|woo|ma/gi,'')).filter(v => v).length
