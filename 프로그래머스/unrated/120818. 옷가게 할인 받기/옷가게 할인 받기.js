@@ -1,0 +1,1 @@
+const solution = p => p >= 500000 ? Math.floor(p * 0.8) : p >= 300000 ? Math.floor(p * 0.9) : p >= 100000 ? Math.floor(p * 0.95) : p;
