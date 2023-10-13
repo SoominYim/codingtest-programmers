@@ -1,0 +1,1 @@
+const solution = s => [...s].filter(v=>+v).reduce((acc,cur) => +acc+(+cur))
