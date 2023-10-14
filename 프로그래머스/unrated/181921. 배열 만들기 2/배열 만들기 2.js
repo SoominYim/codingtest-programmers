@@ -1,10 +1,10 @@
 const solution = (l, r) => {
   const result = [];
 
-  for (let num = l; num <= r; num++) {
-    const strNum = num.toString();
+  for (let i = l; i <= r; i++) {
+    const strNum = i.toString();
     if (/^[05]+$/.test(strNum)) {
-      result.push(num);
+      result.push(i);
     }
   }
 
