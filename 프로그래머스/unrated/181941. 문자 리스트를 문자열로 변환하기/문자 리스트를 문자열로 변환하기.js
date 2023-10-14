@@ -1,1 +1,1 @@
-const solution = arr => arr.map(a => a).join("")
+const solution = arr => arr.join("")
