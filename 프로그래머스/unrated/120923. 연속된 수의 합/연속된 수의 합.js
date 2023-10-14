@@ -1,0 +1,1 @@
+const solution = (n,t) => new Array(n).fill().map((_, i) => i+Math.ceil(t/n-Math.floor(n/2)))
