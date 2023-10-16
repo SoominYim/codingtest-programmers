@@ -1,0 +1,1 @@
+const solution = (q,r,code) => code.split('').filter((_,i) => i%q === r).join('')
