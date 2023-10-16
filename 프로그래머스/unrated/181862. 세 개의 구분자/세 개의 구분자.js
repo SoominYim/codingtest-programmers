@@ -1,0 +1,1 @@
+const solution = s => s.split(/[abc]/).filter(v => v).length === 0 ? ['EMPTY'] : s.split(/[abc]/).filter(v => v);
