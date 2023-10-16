@@ -1,0 +1,1 @@
+const solution = (arr, flag) => flag.reduce((acc, cur, idx) => cur ? acc.concat(Array.from({ length: arr[idx] * 2 }, () => arr[idx])) : acc.slice(0, acc.length - arr[idx]),[]);
