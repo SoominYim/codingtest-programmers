@@ -1,0 +1,1 @@
+const solution = (s, p) => s.substring(0,s.lastIndexOf(p) + p.length)
