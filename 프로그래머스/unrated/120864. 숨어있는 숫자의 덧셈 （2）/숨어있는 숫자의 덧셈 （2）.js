@@ -1,0 +1,1 @@
+const solution = my_string => my_string.match(/[0-9]+/g) ? my_string.match(/[0-9]+/g).reduce((acc,cur) => +acc+(+cur),0) : 0
