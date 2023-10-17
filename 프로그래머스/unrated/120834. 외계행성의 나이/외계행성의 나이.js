@@ -1,1 +1,1 @@
-const solution = age => [ ...age+''].reduce((acc,cur)=> acc + 'abcdefghij'[+cur] ,"")
+const solution = age => [...age+''].map(v=>'abcdefghij'[+v]).join('')
