@@ -1,0 +1,1 @@
+const solution = my_string => [...my_string.replaceAll(/[a-zA-z]/g,'')].map(v=>+v).sort((a,b) => a-b)
