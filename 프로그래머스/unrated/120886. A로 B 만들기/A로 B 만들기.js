@@ -1,1 +1,1 @@
-const solution = (before, after) => +(JSON.stringify([...before].sort()) === JSON.stringify([...after].sort()))
+const solution = (before, after) => +([...before].sort().join('') === [...after].sort().join(''))
