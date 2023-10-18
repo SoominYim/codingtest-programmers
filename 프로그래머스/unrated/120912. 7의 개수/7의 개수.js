@@ -1,0 +1,1 @@
+const solution = arr => arr.join('').length - arr.join('').replaceAll(/7/g,'').length
