@@ -1,0 +1,1 @@
+const solution = (a, d) => a.filter(x => !d.includes(x))
