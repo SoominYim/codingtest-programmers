@@ -1,1 +1,1 @@
-const solution=(t,f)=>t.filter((_,i)=>!f[i])
+const solution=(todo_list,finished)=>todo_list.filter((_,i)=>!finished[i])
