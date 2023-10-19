@@ -1,0 +1,1 @@
+const solution = (array, n) => array.filter(v => n === v).length
