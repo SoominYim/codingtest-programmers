@@ -1,0 +1,1 @@
+const solution = n => n.slice(n.sort((a,b) => a-b).length-2,n.sort((a,b) => a-b).length).reduce((acc,cur) => acc*cur)
