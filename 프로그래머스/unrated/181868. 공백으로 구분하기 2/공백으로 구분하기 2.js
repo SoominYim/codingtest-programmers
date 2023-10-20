@@ -1,1 +1,1 @@
-const solution=s=> [...s.split(/\s+/)].filter(v=>v)
+const solution = my_string => my_string.split(/\s+/).filter(v=>v)
