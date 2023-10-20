@@ -1,1 +1,1 @@
-const solution = myString => [...myString].map(a => a.charCodeAt() < 108 ? 'l' : a).join("")
+const solution = myString => [...myString].map(v => v < 'l'? 'l' : v).join("")
