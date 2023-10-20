@@ -1,0 +1,1 @@
+const solution = (s,e) => s.filter(str => !str.includes(e)).join('');
