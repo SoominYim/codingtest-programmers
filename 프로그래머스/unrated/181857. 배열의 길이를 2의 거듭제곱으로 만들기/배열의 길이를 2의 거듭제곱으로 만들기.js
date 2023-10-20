@@ -1,1 +1,1 @@
-const solution = arr => [...arr, ...Array(Math.pow(2, Math.ceil(Math.log2(arr.length))) - arr.length).fill(0)];
+const solution = arr => [...arr, ...Array.from({ length: Math.pow(2, Math.ceil(Math.log2(arr.length))) - arr.length }, () => 0)];
