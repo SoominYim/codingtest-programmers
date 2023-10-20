@@ -1,0 +1,1 @@
+const solution=s=> [...s.split(/\s+/)].filter(v=>v)
