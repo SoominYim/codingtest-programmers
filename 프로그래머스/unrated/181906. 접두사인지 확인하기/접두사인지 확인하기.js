@@ -1,0 +1,1 @@
+const solution = (m,i) => +m.startsWith(i)
