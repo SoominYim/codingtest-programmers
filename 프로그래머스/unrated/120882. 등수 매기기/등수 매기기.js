@@ -1,0 +1,1 @@
+const solution = score => score.map((v,i) => score.filter((s,j) => (s[0]+s[1])/2 > (v[0]+v[1])/2).length+1);
