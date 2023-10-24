@@ -1,0 +1,1 @@
+const solution = n => n.charAt(0) === '0' ? n.replace(/^0+/, '') : n
