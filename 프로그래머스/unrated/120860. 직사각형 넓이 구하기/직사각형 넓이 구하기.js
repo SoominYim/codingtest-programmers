@@ -1,0 +1,1 @@
+const solution = dots => (Math.max(...dots.map(v=>v[0]))-Math.min(...dots.map(v=>v[0])))*(Math.max(...dots.map(v=>v[1]))-Math.min(...dots.map(v=>v[1])))
