@@ -1,0 +1,1 @@
+const solution = n => [n.filter(v => v%2 === 0).length,n.filter(v => v%2).length]
