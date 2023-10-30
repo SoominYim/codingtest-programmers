@@ -1,1 +1,1 @@
-const solution = (a,b) => a.map((_,i) => a[i]*b[i]).reduce((acc,cur) => acc+cur , 0)
+const solution = (a,b) => a.reduce((acc,cur,idx) => acc+= cur*b[idx] , 0)
