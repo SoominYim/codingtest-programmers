@@ -1,0 +1,1 @@
+const solution = s => s.length%2 ? s.slice(parseInt(s.length/2),parseInt(s.length/2)+1) : s.slice((s.length/2)-1,(s.length/2)+1)
