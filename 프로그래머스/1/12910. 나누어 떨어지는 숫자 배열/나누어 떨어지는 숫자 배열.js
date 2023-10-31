@@ -1,0 +1,1 @@
+const solution = (a, d) => filtered = a.filter((v) => Number.isInteger(v / d)).length === 0 ? [-1] : filtered = a.filter((v) => Number.isInteger(v / d)).sort((a, b) => a - b);
