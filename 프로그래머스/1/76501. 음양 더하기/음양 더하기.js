@@ -1,0 +1,1 @@
+const solution = (a,s) => a.reduce((acc, v , idx) => acc + (s[idx] ? v : -v),0)
