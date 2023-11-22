@@ -1,0 +1,1 @@
+const solution = food => food.reverse().reduce((acc,cur,idx) =>(food.length-idx-1).toString().repeat(parseInt(cur/2))+acc+(food.length-idx-1).toString().repeat(+cur/2),'0')
