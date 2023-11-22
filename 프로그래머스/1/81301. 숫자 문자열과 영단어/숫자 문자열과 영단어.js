@@ -1,9 +1,1 @@
-const solution = s => {
-  let answer = s;
-  let nums = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"];
-  for(let i = 0; i < nums.length; i++){
-  let arr = answer.split(nums[i]);
-  answer = arr.join(i)
-  }
-  return +answer
-}
+const solution = s => +(['zero','one','two','three','four','five','six','seven', 'eight','nine'].reduce((acc, cur, idx) => acc.replace(new RegExp(cur, 'g'), idx), s));
