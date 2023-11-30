@@ -1,0 +1,1 @@
+const solution = (p,c) => p.find(v => !c[v]--,c.map(v=>c[v] = (c[v]|0)+1));
