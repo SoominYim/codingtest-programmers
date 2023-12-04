@@ -1,0 +1,1 @@
+const solution = n => Array.from({ length: n + 1 }).reduce(([a, b], _, i) => [b, (a + b) % 1234567], [0, 1])[0];
