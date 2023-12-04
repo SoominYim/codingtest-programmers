@@ -1,0 +1,1 @@
+const solution = n => Array.from({length : n} , (_,i) => n%(i+1)===0 && (i+1)%2===1).filter(v=>v).length
