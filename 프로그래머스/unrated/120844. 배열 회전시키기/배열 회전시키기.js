@@ -1,4 +1,1 @@
-const solution = (numbers,direction) => {
-  direction === "right" ? numbers.unshift(numbers.pop()) : numbers.push(numbers.shift())
-  return numbers
-}
+const solution = (numbers,direction) => numbers = direction === 'right' ? [numbers.pop(),...numbers] : [...numbers.slice(1),numbers.shift()]
