@@ -1,1 +1,1 @@
-const solution = order => [...order.toString().matchAll(/[369]/g)].length
+const solution = order => [...order.toString().match(/[369]/g) ?? []].length
