@@ -1,0 +1,1 @@
+const solution = (s,n) =>s.split("").map(v=>{var r = "abcdefghijklmnopqrstuvwxyz".repeat(2) + "ABCDEFGHIJKLMNOPQRSTUVWXYZ".repeat(2)+"                          ";return r[r.indexOf(v)+n]}).join('')
