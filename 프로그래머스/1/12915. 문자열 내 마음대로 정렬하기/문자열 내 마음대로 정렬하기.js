@@ -1,0 +1,1 @@
+const solution =(s,n)=>s.sort((a,b)=>a[n]>b[n]?1:a[n]<b[n]?-1:a>b?1:-1);
