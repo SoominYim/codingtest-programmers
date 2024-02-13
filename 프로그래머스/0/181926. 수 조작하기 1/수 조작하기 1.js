@@ -1,0 +1,1 @@
+const solution=(n,control)=>[...control].reduce((a,c)=>c=='w'?a+1:c=='s'?a-1:c=='d'?a+10:a-10,n)
