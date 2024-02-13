@@ -1,0 +1,1 @@
+const solution=n=>Array.from({length:n},(_,i)=>i+1).filter(v=>n%2==0?v%2==0:v%2==1).map(v=>n%2==0?v**2:v).reduce((a,c)=>a+c)
