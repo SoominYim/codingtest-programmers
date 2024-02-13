@@ -1,0 +1,1 @@
+const solution = num_list => +num_list.filter(v=>v%2==0).join('')+ +num_list.filter(v=>v%2==1).join('')
