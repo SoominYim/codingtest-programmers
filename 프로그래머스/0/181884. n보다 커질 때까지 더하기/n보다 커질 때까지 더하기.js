@@ -1,10 +1,1 @@
-const solution = (numbers,n)=>{
-    let answer = 0;
-    for (const v of numbers) {
-        answer += v;
-        if (answer > n) {
-            return answer;
-        }
-    }
-    return answer;
-};
+const solution=(numbers,n)=>numbers.reduce((a,c)=>a<=n?a+c:a);
