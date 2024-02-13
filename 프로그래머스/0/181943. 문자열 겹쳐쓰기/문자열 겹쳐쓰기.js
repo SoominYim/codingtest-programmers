@@ -1,0 +1,1 @@
+const solution = (m, o, s) => m.slice(0,s)+o+m.slice(o.length+s,m.length)
