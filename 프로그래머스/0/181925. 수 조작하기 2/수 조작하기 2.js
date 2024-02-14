@@ -1,0 +1,1 @@
+const solution=numLog=>numLog.slice(1).map((v,i)=>v-numLog[i]).map(v=>v==1?'w':v==-1?'s':v==10?'d':'a').join('')
