@@ -1,0 +1,1 @@
+const solution=num_list=>num_list.reduce((a,c)=>num_list.length>=11?a+c:a*c)
