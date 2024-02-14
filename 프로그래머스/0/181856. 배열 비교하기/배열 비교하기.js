@@ -1,0 +1,1 @@
+const solution=(a,b)=>a.length!=b.length?a.length>b.length?1:-1:a.reduce((c,d)=>c+d)-b.reduce((c,d)=>c+d)?a.reduce((c,d)=>c+d)>b.reduce((c,d)=>c+d)?1:-1:0;
