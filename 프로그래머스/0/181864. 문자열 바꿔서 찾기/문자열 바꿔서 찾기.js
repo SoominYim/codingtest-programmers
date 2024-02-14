@@ -1,0 +1,1 @@
+const solution=(myString,pat)=>+[...myString].map(v=>v=="A"?v="B":v="A").join('').includes(pat)
