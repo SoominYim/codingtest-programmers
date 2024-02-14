@@ -1,0 +1,1 @@
+const solution=(start,end_num)=>Array.from({length:start-end_num+1},(_,i)=>start-i)
