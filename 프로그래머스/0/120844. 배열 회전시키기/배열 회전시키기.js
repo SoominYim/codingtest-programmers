@@ -1,0 +1,1 @@
+const solution = (numbers, direction) =>direction=='left'?[...numbers.slice(1),numbers[0]]:[...numbers.slice(-1),...numbers.slice(0,-1)];
