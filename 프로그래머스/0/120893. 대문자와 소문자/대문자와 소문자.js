@@ -1,0 +1,1 @@
+const solution=my_string=>[...my_string].map(v=>v.charCodeAt()<91?v.toLowerCase():v.toUpperCase()).join('')
