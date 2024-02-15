@@ -1,0 +1,1 @@
+const solution=n=>Array.from({length:~~n/2},(_,i)=>2+i*2).reduce((a,c)=>a+c,0)
