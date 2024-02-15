@@ -1,0 +1,1 @@
+const solution=my_string=>[...my_string].reduce((a,c)=>[c,...a],[]).join('')
