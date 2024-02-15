@@ -1,0 +1,1 @@
+const solution=(arr,flag)=>arr.reduce((a,c,i)=>flag[i]?[...a,...Array.from({length:c*2},v=>c)]:a.slice(0,-c),[]);
