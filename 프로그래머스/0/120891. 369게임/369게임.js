@@ -1,0 +1,1 @@
+const solution=order=>[...order+''].reduce((a,c)=>c==3||c==6||c==9?a+1:a,0)
