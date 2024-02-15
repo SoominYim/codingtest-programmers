@@ -1,0 +1,1 @@
+const solution=my_string=>[...my_string].filter(v=>+v).sort().length!=0?[...my_string].filter(v=>!isNaN(v)&&v!=' ').sort().map(v=>+v):[0]
