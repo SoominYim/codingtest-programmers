@@ -1,0 +1,1 @@
+const solution=sides=>+(sides.sort((a,b)=>a-b)[0]+sides[1]>sides[2])||2;
