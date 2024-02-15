@@ -1,0 +1,1 @@
+const solution=(num1,num2)=>num1-Math.floor(num1/num2)*num2;
