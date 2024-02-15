@@ -1,0 +1,1 @@
+const solution=(num,k)=>[...num+''].findIndex(v=>v==k+'')+1||-1
