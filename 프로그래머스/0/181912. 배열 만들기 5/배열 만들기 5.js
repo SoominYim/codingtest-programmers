@@ -1,0 +1,1 @@
+const solution=(intStrs,k,s,l)=>intStrs.reduce((a,c)=>[...a,+c.slice(s,s+l)],[]).filter(v=>v>k)
