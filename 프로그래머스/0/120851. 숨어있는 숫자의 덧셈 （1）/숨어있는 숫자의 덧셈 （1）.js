@@ -1,0 +1,1 @@
+const solution=my_string=>[...my_string].filter(v=>+v).reduce((a,c)=>+a+ +c)
