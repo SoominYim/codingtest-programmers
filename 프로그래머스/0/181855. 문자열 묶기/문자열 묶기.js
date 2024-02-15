@@ -1,0 +1,1 @@
+const solution=strArr=>Math.max(...Object.values(strArr.reduce((a,c)=>{a[c.length]=(a[c.length]||0)+1;return a;},{})));
