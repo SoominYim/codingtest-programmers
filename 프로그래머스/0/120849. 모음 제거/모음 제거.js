@@ -1,0 +1,1 @@
+const solution=my_string=>[...my_string].filter(v=>v!="a"&&v!="i"&&v!="o"&&v!="u"&&v!="e").join('')
