@@ -1,0 +1,1 @@
+const solution=(my_string,n)=>[...my_string].reduce((a,c)=>a+c.repeat(n),'')
