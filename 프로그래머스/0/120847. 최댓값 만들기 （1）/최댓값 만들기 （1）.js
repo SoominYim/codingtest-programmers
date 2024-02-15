@@ -1,0 +1,1 @@
+const solution=numbers=>numbers.sort((a,b)=>a-b).at(-1)*numbers.sort((a,b)=>a-b).at(-2)
