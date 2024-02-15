@@ -1,0 +1,1 @@
+const solution=arr=>[...arr,...Array.from({length:2**Math.ceil(Math.log2(arr.length))-arr.length},v=>0)]
