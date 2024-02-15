@@ -1,0 +1,1 @@
+const solution=(myString,pat)=>[...myString].map((v,i)=>myString.slice(i,pat.length+i)).filter(v=>v==pat).length
