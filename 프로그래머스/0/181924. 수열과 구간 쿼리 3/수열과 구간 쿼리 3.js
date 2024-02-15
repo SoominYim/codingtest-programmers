@@ -1,0 +1,1 @@
+const solution = (arr, queries) => queries.map(([s,e])=>(arr[s]=[arr[e],arr[e]=arr[s]][0],arr.slice())).at(-1)
