@@ -1,0 +1,1 @@
+const solution=n=>Math.ceil(n*(6/(g=(a,b)=>b?g(b,a%b):a)(6,n))/6);
