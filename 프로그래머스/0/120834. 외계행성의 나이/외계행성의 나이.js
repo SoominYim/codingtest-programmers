@@ -1,0 +1,1 @@
+const solution=age=>[...age+''].map(a=>[...parseInt(a, 10).toString(26)].map(b=>String.fromCharCode(parseInt(b,26)+97)).join('')).join('');
