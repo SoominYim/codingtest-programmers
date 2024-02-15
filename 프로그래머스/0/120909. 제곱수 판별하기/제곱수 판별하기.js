@@ -1,1 +1,1 @@
-const solution=n=>+Number.isInteger(Math.sqrt(n))||2
+const solution=n=>+(Math.sqrt(n)%1==0)||2
