@@ -1,0 +1,1 @@
+const solution = my_string => my_string.split(/[A-Za-z]/).reduce((a,c)=>a+(c==''?0:+c),0);
