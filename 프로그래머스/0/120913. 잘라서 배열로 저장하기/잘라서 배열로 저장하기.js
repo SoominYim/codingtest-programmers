@@ -1,0 +1,1 @@
+const solution=(my_str,n)=>Array.from({length:Math.ceil(my_str.length/n)},(_,i)=>my_str.slice(i*n,(i+1)*n))
