@@ -1,1 +1,1 @@
-const solution = (a,b) => Array.from({length : Math.max(b-a+1,a-b+1)} , (_,i) => i+Math.min(a,b)).reduce((acc,cur) => acc+cur)
+const solution=(a,b)=>Array.from({length:Math.max(a,b)-Math.min(a,b)+1},(_,i)=>i+Math.min(a,b)).reduce((a,c)=>a+c)
