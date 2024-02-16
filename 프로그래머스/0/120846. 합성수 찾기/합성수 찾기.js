@@ -1,0 +1,1 @@
+const solution= n=>Array.from({length:n},(_,i)=>i+1).filter(v=>Array.from({length:Math.floor(Math.sqrt(v))},(_,j)=>j+1).reduce((count,j)=>v%j===0?count+(v/j===j?1:2):count,0)>=3).length;
