@@ -1,1 +1,1 @@
-const solution = p =>'*'.repeat(p.length-4)+p.slice(-4)
+const solution=phone_number=>phone_number.slice(0,-4).replaceAll(/\d/g,"*")+phone_number.slice(-4)
