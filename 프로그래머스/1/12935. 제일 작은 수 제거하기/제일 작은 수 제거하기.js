@@ -1,6 +1,1 @@
-const solution = (arr) => {
-  const min = Math.min(...arr);
-  const result = arr.filter((num) => num !== min);
-
-  return result.length === 0 ? [-1] : result;
-};
+const solution=arr=>!arr.length?[-1]:arr.filter(v=>v!==Math.min(...arr))
