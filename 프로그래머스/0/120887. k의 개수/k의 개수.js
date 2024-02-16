@@ -1,0 +1,1 @@
+const solution=(i,j,k)=>Array.from({length:j-i+1},(_,l)=>[...i+l+'']).flat().filter(v=>v==k).length
