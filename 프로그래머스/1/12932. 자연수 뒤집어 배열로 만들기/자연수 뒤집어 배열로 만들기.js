@@ -1,1 +1,1 @@
-const solution = n => [...n+""].map(Number).reverse();
+const solution=n=>[...n+''].map(v=>+v).reverse()
