@@ -1,1 +1,1 @@
-const solution = Number
+const solution=s=>+s
