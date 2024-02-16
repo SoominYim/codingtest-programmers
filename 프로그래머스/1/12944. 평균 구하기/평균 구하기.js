@@ -1,1 +1,1 @@
-const solution = arr => arr.reduce((acc,cur) => (acc+cur),0)/arr.length
+const solution=arr=>arr.reduce((a,c)=>a+c)/arr.length
