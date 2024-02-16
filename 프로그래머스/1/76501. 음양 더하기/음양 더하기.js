@@ -1,1 +1,1 @@
-const solution = (a,s) => a.reduce((acc, v , idx) => acc + (s[idx] ? v : -v),0)
+const solution=(absolutes,signs)=>absolutes.reduce((a,c,i)=>!signs[i]?a+ -c:a+c,0)
