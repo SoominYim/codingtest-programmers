@@ -1,0 +1,1 @@
+const solution=(ineq,eq,n,m)=>+(eq=='='&&n==m||ineq=='<'&&n<m||ineq=='>'&&n>m)
