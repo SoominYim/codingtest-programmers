@@ -1,0 +1,1 @@
+const solution=sides=>{let count=0;let max=Math.max(...sides);let min=Math.min(...sides);var i;for(i=max-min+1;i<=max;i++)count++;for(i=max+1;i<max+min;i++)count++;return count}
