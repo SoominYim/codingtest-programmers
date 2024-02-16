@@ -1,0 +1,1 @@
+const solution=(array,n)=>array.reduce((a,c)=>Math.abs(c-n)<Math.abs(a-n)||(Math.abs(c-n)==Math.abs(a-n)&&c<a)?c:a,array[0])
