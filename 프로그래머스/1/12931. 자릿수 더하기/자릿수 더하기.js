@@ -1,1 +1,1 @@
-const solution = n => [...((n)+"")].reduce((acc,cur) => acc+parseInt(cur,10),0)
+const solution=N=>[...N+''].reduce((a,c)=>+(a+ +c)*1,0)
