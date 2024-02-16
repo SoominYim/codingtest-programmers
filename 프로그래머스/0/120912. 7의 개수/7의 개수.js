@@ -1,0 +1,1 @@
+const solution=array=>array.flatMap(v=>[...v+'']).filter(v=>v==7).length
