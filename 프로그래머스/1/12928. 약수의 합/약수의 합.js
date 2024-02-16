@@ -1,7 +1,1 @@
-const solution = n => {
-  let answer = 0
-  for(let i = 0 ; i <= n; i++){
-    if(n%i === 0) answer = answer + i
-  }
-  return answer
-}
+const solution=n=>Array.from({length:n},(_,i)=>i+1).reduce((a,c)=>n%c==0?a+c:a,0)
