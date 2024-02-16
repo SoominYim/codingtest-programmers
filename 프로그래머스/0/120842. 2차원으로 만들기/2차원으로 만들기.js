@@ -1,0 +1,1 @@
+const solution=(num_list,n)=>Array.from({length:Math.ceil(num_list.length/n)},(_,i)=>num_list.slice(i*n,(i+1)*n))
