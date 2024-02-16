@@ -1,7 +1,1 @@
-function solution(n) {
-  for (let x = 2; x <= n; x++) {
-    if (n % x === 1) {
-      return x;
-    }
-  }
-}
+const solution=n=>Math.min(...Array.from({length:n},(_,i)=>i+1).filter(v=>n%v==1))
