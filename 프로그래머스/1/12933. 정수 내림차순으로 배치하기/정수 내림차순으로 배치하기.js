@@ -1,1 +1,1 @@
-const solution = n => +[...n+''].sort((a,b) => b-a ).join('')
+const solution=n=>+[...n+''].sort((a,b)=>b-a).join('')
