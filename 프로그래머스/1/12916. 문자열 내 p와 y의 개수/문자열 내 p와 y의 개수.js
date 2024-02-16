@@ -1,0 +1,1 @@
+const solution=s=>[...s].filter(v=>v.toLowerCase()=='p').length==[...s].filter(v=>v.toLowerCase()=='y').length
