@@ -1,0 +1,1 @@
+const solution=my_string=>new Function('return '+my_string)()
