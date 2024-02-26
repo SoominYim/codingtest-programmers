@@ -1,0 +1,1 @@
+const solution=(n,[a,b,c],l)=>n==1?l.slice(0,b+1):n==2?l.slice(a):n==3?l.slice(a,b+1):l.slice(a,b+1).filter((_,i)=>i%c==0)
