@@ -1,0 +1,1 @@
+const solution=(keyinput,board)=>keyinput.map(v=>[v=='left'?-1:v=='right'?1:0,v=='down'?-1:v=='up'?1:0]).reduce((a,c)=>[Math.max(Math.min(a[0]+c[0],~~(board[0]/2)),-~~(board[0]/2)),Math.max(Math.min(a[1]+c[1],~~(board[1]/2)),-~~(board[1]/2))],[0,0]);
