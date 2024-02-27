@@ -1,0 +1,1 @@
+const solution=str_list=>(s=str_list.findIndex(v=>v=='l'||v=='r'),s==-1?[]:str_list[s]=='l'?str_list.slice(0,s):str_list.slice(s+1))
