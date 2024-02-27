@@ -1,0 +1,1 @@
+const solution=(arr,queries)=>queries.map(([s,e,k])=>(r=arr.slice(s,e+1).filter(v=>v>k),r.length?Math.min(...r):-1))
