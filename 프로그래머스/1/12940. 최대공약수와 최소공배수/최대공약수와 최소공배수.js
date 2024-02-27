@@ -1,5 +1,1 @@
-const solution = (n,m) => {
-    const gcd = (a,b) => b?gcd(b,a%b):a
-    const lcm = (a,b) => a*b/gcd(a,b)
-    return [gcd(n,m),lcm(n,m)]
-}
+const solution=(n,m)=>(gcd=(a,b)=>a%b?gcd(b,a%b):b,lcm=(a,b)=>a*b/gcd(a,b),[gcd(n,m),lcm(n,m)])
