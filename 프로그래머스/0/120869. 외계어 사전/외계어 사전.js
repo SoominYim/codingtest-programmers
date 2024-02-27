@@ -1,0 +1,1 @@
+const solution=(spell,dic)=>dic.filter(v=>[...v].sort().join('').includes(spell.sort().join(''))).length>0?1:2
