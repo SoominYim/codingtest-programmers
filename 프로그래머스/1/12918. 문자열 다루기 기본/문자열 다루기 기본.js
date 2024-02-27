@@ -1,1 +1,1 @@
-const solution = s => parseInt(s) == +s && (s.length === 4 || s.length ===6) ? true : false;
+const solution=s=>[...s].every(v=>!isNaN(v)&&(s.length==4||s.length==6))
