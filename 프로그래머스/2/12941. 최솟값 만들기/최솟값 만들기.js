@@ -1,4 +1,1 @@
-function solution(A,B){
-    const Bsort = B.sort((a,b)=>b-a);
-    return A.sort((a,b)=>a-b).reduce((acc,cur,idx)=> acc+=cur*Bsort[idx],0)
-}
+const solution=(A,B)=>(A=A.sort((a,b)=>a-b),B=B.sort((a,b)=>b-a),A.reduce((a,c,i)=>a+c*B[i],0));
