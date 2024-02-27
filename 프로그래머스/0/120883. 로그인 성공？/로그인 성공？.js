@@ -1,0 +1,1 @@
+const solution=(id_pw, db)=>db.reduce((a,c)=>c[0]==id_pw[0]?(c[1]==id_pw[1]?"login":"wrong pw"):a, "fail");
