@@ -1,1 +1,1 @@
-const solution = (arr1,arr2) => arr1.map((a,i) => a.map((b,j) => b + arr2[i][j]))
+const solution=(arr1,arr2)=>arr1.map((a,i)=>a.map((b,j)=>b+arr2[i][j]))
