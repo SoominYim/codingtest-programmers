@@ -1,0 +1,1 @@
+const solution=dots=>(a=i=>Math.max(...dots.map(v=>v[i])),b=j=>Math.min(...dots.map(v=>v[j])),(a(0)-b(0))*(a(1)-b(1)))
