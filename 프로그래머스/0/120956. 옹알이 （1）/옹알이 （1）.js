@@ -1,0 +1,1 @@
+const solution=babbling=>babbling.filter(v=>!v.replaceAll(/aya|ye|woo|ma/gi,'')).length
