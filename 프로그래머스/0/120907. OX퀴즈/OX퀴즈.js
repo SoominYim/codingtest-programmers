@@ -1,0 +1,1 @@
+const solution=quiz=>quiz.map(v=>([x,op,y,_,z]=v.split(' '),(op=="+"?+x+ +y:+x- +y)==+z?"O":"X"))
