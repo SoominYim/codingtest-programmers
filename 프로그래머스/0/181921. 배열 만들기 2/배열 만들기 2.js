@@ -1,0 +1,1 @@
+const solution=(l,r)=>(a=Array.from({length:~~(r-l+1)},(_,i)=>(i+l)+'').filter(v=>[...v+''].every(v=>v==0||v==5)).map(v=>+v),a.length?a:[-1])
