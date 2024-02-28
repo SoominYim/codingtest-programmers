@@ -1,8 +1,1 @@
-const solution = n => {
-  const count = num => [...num.toString(2)].filter(v=>v==="1").length;
-  let i = n+1
-  while(count(i) !== count(n)){
-    i++
-  }
-  return i
-}
+const solution=n=>{let i=n+1;while(true){if([...n.toString(2)].filter(v=>v=='1').length==[...i.toString(2)].filter(v=>v=='1').length)return i;i++;}};
