@@ -1,1 +1,1 @@
-const solution = (a,b) => new Date(2016,(a-1),b).toString().slice(0,3).toUpperCase()
+const solution=(a,b)=>['SUN','MON','TUE','WED','THU','FRI','SAT'][new Date(2016,a-1,b).getDay()]
