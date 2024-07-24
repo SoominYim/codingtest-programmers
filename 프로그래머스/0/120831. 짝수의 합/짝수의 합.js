@@ -1,1 +1,1 @@
-const solution=n=>Array.from({length:~~n/2},(_,i)=>2+i*2).reduce((a,c)=>a+c,0)
+const solution = n => Array.from({length : n}, (_,i) => i+1).filter(v=>v%2 === 0).reduce((acc, cur) => acc+cur,0)
