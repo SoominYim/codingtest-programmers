@@ -1,1 +1,1 @@
-const solution=price=>~~(price*(1-(price>=500000?0.2:price>=300000?0.1:price>=100000?0.05:0)));
+const solution = p => p >= 500000 ? Math.floor(p * 0.8) : p >= 300000 ? Math.floor(p * 0.9) : p >= 100000 ? Math.floor(p * 0.95) : p;
