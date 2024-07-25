@@ -1,1 +1,3 @@
-const solution=(myString,pat)=>+[...myString].map(v=>v=="A"?v="B":v="A").join('').includes(pat)
+function solution(myString, pat) {
+    return ~~[...myString].map(a=> a==='A' ? 'B' : 'A').join("").includes(pat)
+}
