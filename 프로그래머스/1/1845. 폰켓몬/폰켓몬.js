@@ -1,0 +1,1 @@
+const solution = (n) => n.length/2 > n.filter((v,i)=>n.indexOf(v) === i).length ?  n.filter((v,i)=>n.indexOf(v) === i).length : n.length/2 
