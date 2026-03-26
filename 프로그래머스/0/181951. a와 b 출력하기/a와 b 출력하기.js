@@ -4,10 +4,8 @@ const rl = readline.createInterface({
     output: process.stdout
 });
 
-let input = [];
 
-rl.on('line', function (line) {
-    input = line.split(' ');
-}).on('close', function () {
-    console.log(`a = ${input[0]}\nb = ${input[1]}`);
-});
+rl.on('line', line => {
+      const [a,b] = [...line].join('').split(' ');
+      console.log(`a = ${a} \nb = ${b}`)
+     });
