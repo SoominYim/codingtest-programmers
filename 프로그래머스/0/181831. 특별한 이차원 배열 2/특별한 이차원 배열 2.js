@@ -1,1 +1,15 @@
-const solution=arr=>+arr.every((a,i)=>a.every((b,j)=>b==arr[j][i]))
+function solution(arr) {
+    const n = arr.length;
+
+    for (let i = 0; i < n; i++) {
+        if (arr[i].length !== n) return 0;
+    }
+
+    for (let i = 0; i < n; i++) {
+        for (let j = i + 1; j < n; j++) {
+            if (arr[i][j] !== arr[j][i]) return 0;
+        }
+    }
+
+    return 1;
+}
